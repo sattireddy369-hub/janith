@@ -1,0 +1,10 @@
+{
+	"name": "linksa",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://janithac.dfs.core.windows.net/"
+		}
+	}
+}
