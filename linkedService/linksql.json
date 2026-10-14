@@ -1,0 +1,24 @@
+{
+	"name": "linksql",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "janiths.database.windows.net",
+			"database": "janithdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "janithdb",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "linkkey",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sql",
+				"secretVersion": "987eec490aec48fc82be317b8c00dcce"
+			}
+		}
+	}
+}
