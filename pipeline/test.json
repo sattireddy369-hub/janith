@@ -50,8 +50,8 @@
 						"referenceName": "Parquetds",
 						"type": "DatasetReference",
 						"parameters": {
-							"container": "test",
-							"folder": "teat1"
+							"container": "target",
+							"folder": "test"
 						}
 					}
 				]
