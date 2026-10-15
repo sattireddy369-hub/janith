@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "test",
 	"properties": {
 		"activities": [
 			{
@@ -48,11 +48,18 @@
 				"outputs": [
 					{
 						"referenceName": "Parquetds",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "test",
+							"folder": "teat1"
+						}
 					}
 				]
 			}
 		],
+		"folder": {
+			"name": "project"
+		},
 		"annotations": []
 	}
 }
