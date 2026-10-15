@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "janithadf"
+		},
+		"linkPostgreSql_properties_typeProperties_server": {
+			"value": "ep-fancy-hill-b5v78ghn-pooler.c-7.us-east-2.aws.neon.tech"
+		},
+		"linkPostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"linkPostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"linkkey_properties_typeProperties_baseUrl": {
+			"value": "https://janithkey.vault.azure.net/"
+		},
+		"linksa_properties_typeProperties_url": {
+			"value": "https://janithac.dfs.core.windows.net/"
+		},
+		"linksql_properties_typeProperties_server": {
+			"value": "janiths.database.windows.net"
+		},
+		"linksql_properties_typeProperties_database": {
+			"value": "janithdb"
+		},
+		"linksql_properties_typeProperties_userName": {
+			"value": "janithdb"
+		}
+	}
+}
